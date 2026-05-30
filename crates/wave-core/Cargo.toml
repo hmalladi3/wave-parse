@@ -6,3 +6,4 @@ license.workspace = true
 description = "Zero-copy WiFi CSI frame parsing, subcarrier extraction, and a lock-free SPSC frame ring."
 
 [dependencies]
+ring = "0.17"

@@ -10,6 +10,7 @@ use core::sync::atomic::{AtomicU64, AtomicUsize, Ordering};
 
 pub mod dsp;
 pub mod host;
+pub mod security;
 
 /// Fixed header length of the canonical frame layout (see `tests/common`).
 const HEADER_LEN: usize = 16;
